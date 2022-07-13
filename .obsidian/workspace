@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "52af83a770cea7db",
+    "type": "split",
+    "children": [
+      {
+        "id": "b226f804df06807e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "mounting drives.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "725617861bcea48b",
+    "type": "split",
+    "children": [
+      {
+        "id": "bd6371cfa377d50e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1680645c2f24cf92",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "027b79cec6acd04b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "34dfc6782453d09d",
+    "type": "split",
+    "children": [
+      {
+        "id": "69cc627432e3f0c3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0437c5ca68112117",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "mounting drives.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "b226f804df06807e",
+  "lastOpenFiles": [
+    "mounting drives.md",
+    "imgs/Screen Shot 2022-07-13 at 11.31.03.png",
+    "nginx.md",
+    "Node, Javascript.md",
+    "nginx configuration.md",
+    "().md",
+    "main site.md",
+    "vi_cheat_sheet.pdf",
+    "mongodb.md",
+    "concept/concept.md"
+  ]
+}
