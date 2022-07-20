@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "typescript/typescript.md",
+            "file": "figma.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "typescript/typescript.md",
+                "file": "figma.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,12 +125,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "4659b55c35c34f63",
   "lastOpenFiles": [
-    "git notes.md",
     "typescript/typescript.md",
+    "git notes.md",
     "typescript/tsconfig.json.md",
     "typescript/package.json.md",
     "typescript/nodemon.json.md",
