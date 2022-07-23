@@ -14,7 +14,11 @@ sshhhhhhhhhhhhhhhhhhhhhhh into the server using
 
 ssh root@107.174.243.68
 
-Follow https://www.sohamkamani.com/docker/mongo-replica-set/ until it says "Use Dockerfile"
+Follow https://www.sohamkamani.com/docker/mongo-replica-set/ until it says use the exec
+On each one, it will say like "cannot do something until replica set is set up" just ctrl C for all three
+then run "docker container ls -a" to find the containers named mongo1, mongo2, mongo3.
+try using "docker start [container]" to run
+only then do you use exec to enter a mongo shell in mongo1.
 
 Use mongodb://107.174.243.68:30001/data?directConnection=true
 
