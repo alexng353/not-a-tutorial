@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4659b55c35c34f63",
+        "id": "375e72c725087a5f",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "git notes.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,11 +123,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4659b55c35c34f63",
+  "active": "375e72c725087a5f",
   "lastOpenFiles": [
+    "git notes.md",
     "figma.md",
     "typescript/typescript.md",
-    "git notes.md",
     "typescript/tsconfig.json.md",
     "typescript/package.json.md",
     "typescript/nodemon.json.md",
