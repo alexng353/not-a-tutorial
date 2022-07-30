@@ -7,8 +7,12 @@
         "id": "375e72c725087a5f",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "replicas.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "replicas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,6 +130,7 @@
   },
   "active": "375e72c725087a5f",
   "lastOpenFiles": [
+    "mongodb.md",
     "git notes.md",
     "figma.md",
     "typescript/typescript.md",
@@ -133,7 +139,6 @@
     "typescript/nodemon.json.md",
     "replicas.md",
     "Node, Javascript.md",
-    "vi_cheat_sheet.pdf",
-    "mounting drives.md"
+    "vi_cheat_sheet.pdf"
   ]
 }
