@@ -1,6 +1,3 @@
-# DOCKER COMPOSE
-![[mongo docker-compose]]
-
 # HOW TO GET REPLICA SETS WORKING LMAO
 ## WHY WE NEED A REPLICA SET
 Accessing data is easy because you just read the data
@@ -17,11 +14,13 @@ sshhhhhhhhhhhhhhhhhhhhhhh into the server using
 
 ssh root@107.174.243.68
 
-Follow https://www.sohamkamani.com/docker/mongo-replica-set/ until it says use the exec
-On each one, it will say like "cannot do something until replica set is set up" just ctrl C for all three
+Use the docker-compose.yaml that we wrote and use docker-compose up to start.
+Wait until it **prints the same thing like ten times lmao**, it will say like "cannot do something until replica set is set up" just ctrl C for all three
 then run "docker container ls -a" to find the containers named mongo1, mongo2, mongo3.
 try using "docker start [container]" to run
 only then do you use exec to enter a mongo shell in mongo1.
+then follow steps in the https://www.sohamkamani.com/docker/mongo-replica-set/ link like the config and rs.initiate(config) until one of them is primary
+then connect to primary by changing 30001 with either 30002 or 30003. 
 
 Use mongodb://107.174.243.68:30001/data?directConnection=true
 
