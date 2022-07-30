@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "375e72c725087a5f",
+        "id": "0d238e897c52125f",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -125,20 +125,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "375e72c725087a5f",
+  "active": "0d238e897c52125f",
   "lastOpenFiles": [
-    "mongodb.md",
-    "git notes.md",
-    "figma.md",
-    "typescript/typescript.md",
-    "typescript/tsconfig.json.md",
-    "typescript/package.json.md",
-    "typescript/nodemon.json.md",
+    "mongo docker-compose.md",
     "replicas.md",
-    "Node, Javascript.md",
-    "vi_cheat_sheet.pdf"
+    "git notes.md",
+    "main site.md"
   ]
 }

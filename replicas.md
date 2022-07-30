@@ -1,3 +1,6 @@
+# DOCKER COMPOSE
+![[mongo docker-compose]]
+
 # HOW TO GET REPLICA SETS WORKING LMAO
 ## WHY WE NEED A REPLICA SET
 Accessing data is easy because you just read the data
