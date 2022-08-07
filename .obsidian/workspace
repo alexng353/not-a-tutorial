@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "0d238e897c52125f",
+        "id": "b1c4622d99dde934",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "replicas.md",
+            "file": "freenas/VM has no internet.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "replicas.md",
+                "file": "freenas/VM has no internet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,10 +127,11 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "0d238e897c52125f",
+  "active": "b1c4622d99dde934",
   "lastOpenFiles": [
-    "mongo docker-compose.md",
+    "freenas/VM has no internet.md",
     "replicas.md",
+    "mongo docker-compose.md",
     "git notes.md",
     "main site.md"
   ]
