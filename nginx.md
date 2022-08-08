@@ -35,6 +35,11 @@ ssl_certificate /root/.acme.sh/ayo.icu/fullchain.cer
 ssl_certificate_key /root/.acme.sh/ayo.icu/ayo.icu.key
 ```
 
+### SymLinks
+```bash
+sudo ln -s /path/to/file /path/to/symlink
+```
+
 ## Reverse Proxy
 ```
 i forgor
