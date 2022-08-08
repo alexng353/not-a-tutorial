@@ -3,6 +3,8 @@
 ## How to start redis
 sudo service redis-server start
 
+(if errors mostly its cuz its already running on 6379 so just sudo kill -9 \`sudo lsof -t -i:6379`
+
 ## Redis cli
 redis-cli
 
