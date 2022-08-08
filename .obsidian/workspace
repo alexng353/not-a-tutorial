@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "node/run node app on startup.md",
+            "file": "redis.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "node/run node app on startup.md",
+                "file": "redis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,8 +129,8 @@
   },
   "active": "b1c4622d99dde934",
   "lastOpenFiles": [
-    "node/Node, Javascript.md",
     "node/run node app on startup.md",
+    "node/Node, Javascript.md",
     "nginx.md",
     "concept/concept.md",
     "freenas/VM has no internet.md",
