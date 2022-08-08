@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "nginx configuration.md",
+            "file": "concept/concept.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "nginx configuration.md",
+                "file": "concept/concept.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,13 +127,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "b1c4622d99dde934",
+  "active": "e7dbbd2ade017ff2",
   "lastOpenFiles": [
-    "nginx.md",
     "freenas/VM has no internet.md",
-    "replicas.md",
-    "mongo docker-compose.md",
+    "typescript/tsconfig.json.md",
+    "typescript/package.json.md",
+    "typescript/nodemon.json.md",
+    "figma.md",
     "git notes.md",
-    "main site.md"
+    "main site.md",
+    "mongo docker-compose.md",
+    "mongodb.md",
+    "mounting drives.md"
   ]
 }
