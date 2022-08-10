@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "redis.md",
+            "file": "proxmox/vm.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "redis.md",
+                "file": "proxmox/vm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,6 +129,7 @@
   },
   "active": "b1c4622d99dde934",
   "lastOpenFiles": [
+    "redis.md",
     "node/run node app on startup.md",
     "node/Node, Javascript.md",
     "nginx.md",
@@ -137,7 +138,6 @@
     "typescript/tsconfig.json.md",
     "typescript/package.json.md",
     "typescript/nodemon.json.md",
-    "figma.md",
-    "git notes.md"
+    "figma.md"
   ]
 }
