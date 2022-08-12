@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "rust/cross compiling rust to linux.md",
+            "file": "NET ERR (chrome).md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rust/cross compiling rust to linux.md",
+                "file": "NET ERR (chrome).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,8 +129,8 @@
   },
   "active": "0d238e897c52125f",
   "lastOpenFiles": [
-    "rust/_rust.md",
     "rust/cross compiling rust to linux.md",
+    "rust/_rust.md",
     "linux/freenas/VM has no internet.md",
     "linux/nginx.md",
     "linux/nginx configuration.md",
