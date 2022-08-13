@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "linux/freenas/VM has no internet.md",
+            "file": "linux/nginx.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/freenas/VM has no internet.md",
+                "file": "linux/nginx.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,12 +129,12 @@
   },
   "active": "0d238e897c52125f",
   "lastOpenFiles": [
+    "linux/nginx configuration.md",
+    "linux/freenas/VM has no internet.md",
     "rust/cross compiling rust to linux.md",
     "rust/_rust.md",
     "NET ERR (chrome).md",
-    "linux/freenas/VM has no internet.md",
     "linux/nginx.md",
-    "linux/nginx configuration.md",
     "main site.md",
     "linux/mongo docker-compose.md",
     "linux/mounting drives.md",

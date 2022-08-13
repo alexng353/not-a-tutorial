@@ -24,7 +24,7 @@ curl https://get.acme.sh | sh -s email=my@example.com
 #set environment variables
 export CF_Key="key"
 export CF_Email="alexng353@gmail.com"
-
+	
 # run acme.sh script
 acme.sh --issue --dns dns_cf -d ayo.icu -d '*.ayo.icu'
 ```
