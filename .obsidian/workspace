@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "0d238e897c52125f",
+        "id": "b1c4622d99dde934",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "rust/cross compiling rust to linux.md",
+            "file": "rust/_rust.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rust/cross compiling rust to linux.md",
+                "file": "rust/_rust.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,17 +127,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "0d238e897c52125f",
+  "active": "b1c4622d99dde934",
   "lastOpenFiles": [
-    "rust/_rust.md",
-    "NET ERR (chrome).md",
-    "rust/cross compiling rust to linux.md",
-    "linux/freenas/VM has no internet.md",
-    "linux/nginx.md",
-    "linux/nginx configuration.md",
-    "main site.md",
-    "linux/mongo docker-compose.md",
-    "linux/mounting drives.md",
-    "figma.md"
+    "rust/timing a function.md",
+    "proxmox/vm.md",
+    "redis.md",
+    "node/run node app on startup.md",
+    "node/Node, Javascript.md",
+    "nginx.md",
+    "concept/concept.md",
+    "freenas/VM has no internet.md",
+    "typescript/tsconfig.json.md",
+    "typescript/package.json.md"
   ]
 }

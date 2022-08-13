@@ -1,1 +1,7 @@
-# Cross Compiling to Linux
+# Building
+[[cross compiling rust to linux]]
+
+
+
+# Testing
+[[timing a function]]
