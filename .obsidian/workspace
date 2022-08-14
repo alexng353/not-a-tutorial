@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "rust/cross compiling rust to linux.md",
+            "file": "nginx/build nginx.md",
             "mode": "source",
             "source": false
           }
@@ -77,13 +77,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rust/cross compiling rust to linux.md",
+                "file": "nginx/build nginx.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -129,15 +129,15 @@
   },
   "active": "0d238e897c52125f",
   "lastOpenFiles": [
-    "linux/nginx.md",
-    "linux/nginx configuration.md",
-    "linux/freenas/VM has no internet.md",
+    "nginx/_nginx.md",
+    "nginx/nginx basics.md",
+    "nginx/nginx configuration.md",
+    "nginx/build nginx.md",
+    "nginx/Get IPs from Cloudflare.md",
     "rust/cross compiling rust to linux.md",
+    "linux/freenas/VM has no internet.md",
     "rust/_rust.md",
     "NET ERR (chrome).md",
-    "main site.md",
-    "linux/mongo docker-compose.md",
-    "linux/mounting drives.md",
-    "figma.md"
+    "main site.md"
   ]
 }
