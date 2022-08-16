@@ -10,9 +10,10 @@ Module included by default in [[build nginx]]
  [https://www.cloudflare.com/ips/](https://www.cloudflare.com/ips/ "https://www.cloudflare.com/ips/")
 2. Add those ranges to nginx config, making sure to change YOUR.DOMAIN and PORT
    **note that the ip ranges DO change from time to time**
-   These IP ranges were last set 2022-08-16 (y/m/d)
+These IP ranges were last set 2022-08-16 (y/m/d)
    <details>
    <summary>Example Nginx Config </summary>
+   
    ```nginx
    
 	server {
@@ -66,6 +67,7 @@ Module included by default in [[build nginx]]
 		}
 	}
 	```
+	
 </details>
 
 3. `sudo nginx -s reload`
