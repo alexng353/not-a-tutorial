@@ -1,5 +1,5 @@
 # Building
-[[cross compiling rust to linux]]
+[[cross compiling]]
 
 
 
