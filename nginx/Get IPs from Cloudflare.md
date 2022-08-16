@@ -12,8 +12,7 @@ Module included by default in [[build nginx]]
    **note that the ip ranges DO change from time to time**
    These IP ranges were last set 2022-08-16 (y/m/d)
    <details>
-   <summary>Add those ranges to nginx config</summary>
-```nginx
+   <summary>Example Nginx Config </summary>
 server {
     listen 80;
     server_name YOUR.DOMAIN;
@@ -64,7 +63,6 @@ server {
 			proxy_pass http://localhost:PORT;
 	}
 }
-```
 </details>
 3. `sudo nginx -s reload`
 4. Google how to get a header from a request in whichever favourite webserver library you use
