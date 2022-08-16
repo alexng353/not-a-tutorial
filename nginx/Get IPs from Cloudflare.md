@@ -1,6 +1,9 @@
 By default, Nginx doesn't send a connection(client)'s ip to a reverse-proxied web app when connecting through cloudflare, which is what this "tutorial" aims to solve
 
- [https://developers.cloudflare.com/fundamentals/get-started/reference/http-request-headers/](https://developers.cloudflare.com/fundamentals/get-started/reference/http-request-headers/ "https://developers.cloudflare.com/fundamentals/get-started/reference/http-request-headers/") [https://support.cloudflare.com/hc/en-us/articles/200170786](https://support.cloudflare.com/hc/en-us/articles/200170786 "https://support.cloudflare.com/hc/en-us/articles/200170786")
+ [https://developers.cloudflare.com/fundamentals/get-started/reference/http-request-headers/](https://developers.cloudflare.com/fundamentals/get-started/reference/http-request-headers/ "https://developers.cloudflare.com/fundamentals/get-started/reference/http-request-headers/") 
+ 
+ [https://support.cloudflare.com/hc/en-us/articles/200170786](https://support.cloudflare.com/hc/en-us/articles/200170786 "https://support.cloudflare.com/hc/en-us/articles/200170786")
+ 
  [https://www.cloudflare.com/ips/](https://www.cloudflare.com/ips/ "https://www.cloudflare.com/ips/")
 
 ### In order for this to work, you need --with-http_realip_module in your nginx build
