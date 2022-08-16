@@ -92,7 +92,8 @@ Alternatively, get a preformmated live version of those ip lists using [my tool]
 
 3. `sudo nginx -s reload`
 
-5. Google how to get a header from a request in whichever favourite webserver library you use
+4. Google how to get a header from a request in whichever favourite webserver library you use
+
    on express, its 
 	   
 	```js
