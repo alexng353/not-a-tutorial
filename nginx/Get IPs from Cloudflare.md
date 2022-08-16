@@ -31,11 +31,11 @@ Alternatively, get a preformmated live version of those ip lists using [my tool]
 	    
    ```nginx
    
-   server {
+	server {
 		listen 80;
 		server_name YOUR.DOMAIN;
 		return 301 https://$server_name$request_uri;
-    }
+	}
 	
 	server {
 		listen 443 ssl http2;
