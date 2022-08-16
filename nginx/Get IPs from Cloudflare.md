@@ -11,12 +11,21 @@ Module included by default in [[build nginx]]
 
 1. Get IP range lists from cloudflare
  [https://www.cloudflare.com/ips/](https://www.cloudflare.com/ips/ "https://www.cloudflare.com/ips/")
-2. Add those ranges to nginx config, making sure to change YOUR.DOMAIN and PORT
-   **note that the ip ranges DO change from time to time**
-These IP ranges were last set 2022-08-16 (y/m/d)
+2. Add those ranges to nginx config
+
+	`set_real_ip_from ip.v4.from.cloudlflare/range;`
+  
+   The semicolon at the end of the line **is necessary**
+	
    <details>
-   <summary>Example Nginx Config </summary>
-   
+	   <summary>Example Nginx Config </summary>
+	   
+	    **note that the ip ranges DO change from time to time**
+	    
+	    These IP ranges were last set 2022-08-16 (y/m/d)
+	    
+		*don't forget to change YOUR.DOMAIN and PORT*
+	    
    ```nginx
    
 	server {
