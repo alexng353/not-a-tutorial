@@ -42,6 +42,26 @@ Alternatively, get a preformmated live version of those ip lists using [my tool]
 	
 	    server_name YOUR.DOMAIN;
 	
+		include /etc/nginx/somefolder/cloudflare.conf;
+	
+		real_ip_header X-Forwarded-For;
+		real_ip_recursive on;
+	
+		ssl_certificate /root/.acme.sh/YOUR.DOMAIN/fullchain.cer;
+		ssl_certificate_key /root/.acme.sh/YOUR.DOMAIN/YOUR.DOMAIN.key;
+	
+		location / {
+				proxy_set_header  Host $host;
+				proxy_set_header  X-Forwarded-For $remote_addr;
+				proxy_set_header  X-Forwarded-Host $remote_addr;
+				proxy_pass http://localhost:PORT;
+		}
+	}
+	```
+
+	#### /etc/nginx/somefolder/cloudflare.conf
+
+	```nginx
 		set_real_ip_from 103.21.244.0/22;
 		set_real_ip_from 103.22.200.0/22;
 		set_real_ip_from 103.31.4.0/22;
@@ -65,22 +85,6 @@ Alternatively, get a preformmated live version of those ip lists using [my tool]
 		set_real_ip_from 2405:8100::/32;
 		set_real_ip_from 2a06:98c0::/29;
 		set_real_ip_from 2c0f:f248::/32;
-	
-	
-	
-		real_ip_header X-Forwarded-For;
-		real_ip_recursive on;
-	
-		ssl_certificate /root/.acme.sh/YOUR.DOMAIN/fullchain.cer;
-		ssl_certificate_key /root/.acme.sh/YOUR.DOMAIN/YOUR.DOMAIN.key;
-	
-		location / {
-				proxy_set_header  Host $host;
-				proxy_set_header  X-Forwarded-For $remote_addr;
-				proxy_set_header  X-Forwarded-Host $remote_addr;
-				proxy_pass http://localhost:PORT;
-		}
-	}
 	```
 	
 </details>
