@@ -45,9 +45,6 @@ Alternatively, get a preformmated live version of those ip lists using [my tool]
 		# The important one
 		include /etc/nginx/somefolder/cloudflare.conf;
 	
-		real_ip_header X-Forwarded-For;
-		real_ip_recursive on;
-	
 		ssl_certificate /root/.acme.sh/YOUR.DOMAIN/fullchain.cer;
 		ssl_certificate_key /root/.acme.sh/YOUR.DOMAIN/YOUR.DOMAIN.key;
 	
@@ -86,6 +83,9 @@ Alternatively, get a preformmated live version of those ip lists using [my tool]
 	set_real_ip_from 2405:8100::/32;
 	set_real_ip_from 2a06:98c0::/29;
 	set_real_ip_from 2c0f:f248::/32;
+	
+	real_ip_header X-Forwarded-For;
+	real_ip_recursive on;
 	```
 	
 </details>
