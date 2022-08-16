@@ -7,7 +7,7 @@
     -   Unix: `$HOME/.cargo/config.toml`
 
 
-# OSX
+# OSX to Linux
 https://github.com/rust-lang/rust/issues/34282
 https://www.reddit.com/r/rust/comments/g1w6ki/cross_compilation_mac_osx/
 https://github.com/rust-lang/cargo/issues/4399
@@ -38,3 +38,4 @@ sudo apt-get install gcc-mingw-w64
 linker = "x86_64-w64-mingw32-gcc"
 ```
 
+# I don't use windows to compile
