@@ -51,10 +51,10 @@ Alternatively, get a preformmated live version of those ip lists using [my tool]
 		ssl_certificate_key /root/.acme.sh/YOUR.DOMAIN/YOUR.DOMAIN.key;
 	
 		location / {
-				proxy_set_header  Host $host;
-				proxy_set_header  X-Forwarded-For $remote_addr;
-				proxy_set_header  X-Forwarded-Host $remote_addr;
-				proxy_pass http://localhost:PORT;
+			proxy_set_header  Host $host;
+			proxy_set_header  X-Forwarded-For $remote_addr;
+			proxy_set_header  X-Forwarded-Host $remote_addr;
+			proxy_pass http://localhost:PORT;
 		}
 	}
 	```
