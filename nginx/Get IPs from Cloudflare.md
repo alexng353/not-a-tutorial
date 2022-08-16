@@ -38,9 +38,9 @@ Alternatively, get a preformmated live version of those ip lists using [my tool]
 	}
 	
 	server {
-	    listen 443 ssl http2;
+		    listen 443 ssl http2;
 	
-	    server_name YOUR.DOMAIN;
+		    server_name YOUR.DOMAIN;
 	
 		include /etc/nginx/somefolder/cloudflare.conf;
 	
