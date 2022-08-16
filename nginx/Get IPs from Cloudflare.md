@@ -37,10 +37,10 @@ Alternatively, get a preformmated live version of those ip lists using [my tool]
 	    return 301 https://$server_name$request_uri;
 	}
 	
-	server {
-		 listen 443 ssl http2;
+server {
+		listen 443 ssl http2;
 	
-		 server_name YOUR.DOMAIN;
+		server_name YOUR.DOMAIN;
 	
 		include /etc/nginx/somefolder/cloudflare.conf;
 	
