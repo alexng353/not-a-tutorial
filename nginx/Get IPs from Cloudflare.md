@@ -65,4 +65,12 @@ server {
 }
 ```
 3. `sudo nginx -s reload`
-4. If for some reason yuou don't have  ssl certificates, check out [[Generating SSL Keys]] (if you're on github it should be in the same directory)
+4. Google how to get a header from a request in whichever favourite webserver library you use
+   on express, its 
+```js
+app.get("/" (req,res)
+	const ip = req.get("X-Forwarded-For")
+)
+```
+
+6. If for some reason yuou don't have  ssl certificates, check out [[Generating SSL Keys]] (if you're on github it should be in the same directory)
