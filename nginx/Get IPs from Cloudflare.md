@@ -3,9 +3,8 @@ By default, Nginx doesn't send a connection(client)'s ip to a reverse-proxied we
  [https://developers.cloudflare.com/fundamentals/get-started/reference/http-request-headers/](https://developers.cloudflare.com/fundamentals/get-started/reference/http-request-headers/ "https://developers.cloudflare.com/fundamentals/get-started/reference/http-request-headers/") [https://support.cloudflare.com/hc/en-us/articles/200170786](https://support.cloudflare.com/hc/en-us/articles/200170786 "https://support.cloudflare.com/hc/en-us/articles/200170786")
  [https://www.cloudflare.com/ips/](https://www.cloudflare.com/ips/ "https://www.cloudflare.com/ips/")
 
-# In order for this to work, you need --with-http_realip_module in your nginx build
+### In order for this to work, you need --with-http_realip_module in your nginx build
 Module included by default in [[build nginx]] 
-
 
 1. Get IP range lists from cloudflare
  [https://www.cloudflare.com/ips/](https://www.cloudflare.com/ips/ "https://www.cloudflare.com/ips/")
@@ -73,4 +72,4 @@ app.get("/" (req,res)
 )
 ```
 
-6. If for some reason yuou don't have  ssl certificates, check out [[Generating SSL Keys]] (if you're on github it should be in the same directory)
+5. If for some reason yuou don't have  ssl certificates, check out [[Generating SSL Keys]] (if you're on github it should be in the same directory)

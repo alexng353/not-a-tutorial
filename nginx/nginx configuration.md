@@ -2,19 +2,19 @@
 ```nginx
 server {
 	listen 80;
-    server_name www.edubeyond.dev;
+    server_name YOUR.DOMAIN;
     return 301 https://$server_name$request_uri;
 }
     
 server {
     listen 443 ssl http2;
     
-	server_name www.edubeyond.dev;
+	server_name YOUR.DOMAIN;
     
-	ssl_certificate /root/.acme.sh/edubeyond.dev/fullchain.cer;
-	ssl_certificate_key /root/.acme.sh/edubeyond.dev/edubeyond.dev.key;
+	ssl_certificate /root/.acme.sh/YOUR.DOMAIN/fullchain.cer;
+	ssl_certificate_key /root/.acme.sh/YOUR.DOMAIN/YOUR.DOMAIN.key;
     
-	root /root/www.edubeyond.dev;
+	root /root/YOUR.DOMAIN;
     
 	index index.html;
 }
@@ -24,22 +24,20 @@ server {
 ```nginx
 server {
 	listen 80;
-    server_name www.edubeyond.dev;
+    server_name YOUR.DOMAIN;
     return 301 https://$server_name$request_uri;
 }
     
 server {
     listen 443 ssl http2;
     
-	server_name www.edubeyond.dev;
+	server_name YOUR.DOMAIN;
     
-	ssl_certificate /root/.acme.sh/edubeyond.dev/fullchain.cer;
-	ssl_certificate_key /root/.acme.sh/edubeyond.dev/edubeyond.dev.key;
-    
-	root /root/www.edubeyond.dev;
+	ssl_certificate /root/.acme.sh/YOUR.DOMAIN/fullchain.cer;
+	ssl_certificate_key /root/.acme.sh/YOUR.DOMAIN/YOUR.DOMAIN.key;
     
 	location / {
-		proxy_pass http://localhost:port;
+		proxy_pass http://localhost:PORT;
 	}
 }
 ```

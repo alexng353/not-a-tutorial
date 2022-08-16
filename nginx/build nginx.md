@@ -1,7 +1,5 @@
 https://www.alibabacloud.com/blog/how-to-build-nginx-from-source-on-ubuntu-20-04-lts_597793
-
 http://nginx.org/en/docs/http/ngx_http_realip_module.html
-
 http://nginx.org/en/docs/configure.html
 
 ```bash
@@ -9,6 +7,7 @@ sudo apt-get update
 
 sudo apt-get install build-essential libpcre3 libpcre3-dev zlib1g zlib1g-dev libssl-dev libgd-dev libxml2 libxml2-dev uuid-dev
 
+# sometimes you might need to exec bash too 
 
 # REMEMBER change this to the latest version of NGINX (as of writing, latest version is 1.23.0)
 wget  http://nginx.org/download/nginx-1.23.0.tar.gz 
