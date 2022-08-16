@@ -41,7 +41,8 @@ Alternatively, get a preformmated live version of those ip lists using [my tool]
 		listen 443 ssl http2;
 	
 		server_name YOUR.DOMAIN;
-	
+		
+		# The important one
 		include /etc/nginx/somefolder/cloudflare.conf;
 	
 		real_ip_header X-Forwarded-For;
