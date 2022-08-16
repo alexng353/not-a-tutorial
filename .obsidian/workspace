@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "0d238e897c52125f",
+        "id": "227cde6ff62163c8",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "nginx/nginx configuration.md",
+            "file": "rust/cross compiling rust to linux.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "nginx/nginx configuration.md",
+                "file": "rust/cross compiling rust to linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,17 +127,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "0d238e897c52125f",
+  "active": "227cde6ff62163c8",
   "lastOpenFiles": [
+    "nginx/nginx configuration.md",
+    "rust/cross compiling rust to linux.md",
+    "conflict-files-obsidian-git.md",
     "nginx/nginx basics.md",
     "nginx/Get IPs from Cloudflare.md",
     "nginx/build nginx.md",
     "nginx/_nginx.md",
-    "nginx/nginx configuration.md",
-    "rust/cross compiling rust to linux.md",
     "linux/freenas/VM has no internet.md",
     "rust/_rust.md",
-    "NET ERR (chrome).md",
-    "main site.md"
+    "NET ERR (chrome).md"
   ]
 }
