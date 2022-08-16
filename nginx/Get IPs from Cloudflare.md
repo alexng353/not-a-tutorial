@@ -14,6 +14,7 @@ Module included by default in [[build nginx]]
    <details>
    <summary>Example Nginx Config </summary>
    ```nginx
+   
 	server {
 	    listen 80;
 	    server_name YOUR.DOMAIN;
