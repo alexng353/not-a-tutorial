@@ -1,4 +1,5 @@
 [Git commit message convention that you can follow! - DEV Community](https://dev.to/i5han3/git-commit-message-convention-that-you-can-follow-1709)
+
 -   `build`: Build related changes (eg: npm related/ adding external dependencies)
 -   `chore`: A code change that external user won't see (eg: change to .gitignore file or .prettierrc file)
 -   `feat`: A new feature
