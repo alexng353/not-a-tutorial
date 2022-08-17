@@ -1,4 +1,11 @@
-## File Server
+/etc/nginx/conf.d/something.conf
+
+where something is the name of the site (domain)
+
+eg `ayo.icu.conf`, `www.ayo.icu.conf`
+
+# File Server
+
 ```nginx
 server {
 	listen 80;
