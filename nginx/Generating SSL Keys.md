@@ -14,7 +14,7 @@ curl https://get.acme.sh | sh -s email=my@example.com
 ```bash
 #set environment variables
 export CF_Key="key"
-export CF_Email="alexng353@gmail.com"
+export CF_Email="your@email.provider"
 	
 # run acme.sh script
 acme.sh --issue --dns dns_cf -d your.domain -d '*.your.domain'
