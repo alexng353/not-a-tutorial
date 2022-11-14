@@ -5,6 +5,12 @@
 ```bash
 curl https://get.acme.sh | sh -s email=my@example.com
 ```
+
+After installing acme.sh, restart your shell:
+```bash
+exec bash
+```
+
 ### Generate a key pair
 
 - The CF_Key should be the Global API Key from https://dash.cloudflare.com/profile/api-tokens 
