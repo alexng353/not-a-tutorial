@@ -12,7 +12,7 @@ Module included by default in [[build nginx]]
 1. Get IP range lists from cloudflare
  [https://www.cloudflare.com/ips/](https://www.cloudflare.com/ips/ "https://www.cloudflare.com/ips/")
 
-Alternatively, get a preformmated live version of those ip lists using [my tool](https://github.com/alexng353/cf-ips)
+Alternatively, get a preformmated live version of those ip lists using [my tool](https://ayo.icu/projects/cf-ips)
 
 2. Add those ranges to nginx config
 
